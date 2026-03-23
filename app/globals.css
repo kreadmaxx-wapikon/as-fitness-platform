@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050507;
+  --foreground: #e5e7eb;
+  --muted: #94a3b8;
+  --surface: rgba(255, 255, 255, 0.06);
+  --surface-border: rgba(255, 255, 255, 0.12);
+
+  --neon-red: #ff2d2d;
+  --neon-orange: #ff7a18;
+  --neon-amber: #ffb703;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-border: var(--surface-border);
+  --color-neon-red: var(--neon-red);
+  --color-neon-orange: var(--neon-orange);
+  --color-neon-amber: var(--neon-amber);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(1000px 700px at 10% -10%, rgba(255, 45, 45, 0.25), transparent 55%),
+    radial-gradient(900px 600px at 90% 0%, rgba(255, 122, 24, 0.2), transparent 50%),
+    radial-gradient(800px 500px at 50% 110%, rgba(255, 183, 3, 0.12), transparent 55%),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 45, 45, 0.9) rgba(255, 255, 255, 0.06);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(255, 45, 45, 0.9), rgba(255, 122, 24, 0.9));
+  border-radius: 999px;
+}
+
+.neon-glow {
+  filter: drop-shadow(0 0 14px rgba(255, 45, 45, 0.35)) drop-shadow(0 0 30px rgba(255, 122, 24, 0.18));
+}
+
+.bg-grid-neon {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}

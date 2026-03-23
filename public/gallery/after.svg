@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="n" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7a18"/>
+      <stop offset="0.55" stop-color="#ff2d2d"/>
+      <stop offset="1" stop-color="#ffb703"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#050507"/>
+  <g opacity="0.22">
+    <circle cx="190" cy="150" r="200" fill="#ff7a18"/>
+    <circle cx="660" cy="140" r="240" fill="#ff2d2d"/>
+    <circle cx="420" cy="470" r="240" fill="#ffb703" opacity="0.35"/>
+  </g>
+  <rect x="70" y="70" width="660" height="360" rx="34" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+  <g transform="translate(330,95)" fill="none" stroke="url(#n)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 245c10-60 35-105 60-105s50 45 60 105"/>
+    <path d="M15 220c28-70 50-90 65-100"/>
+    <path d="M135 220c-28-70-50-90-65-100"/>
+    <path d="M45 300c20 20 60 20 80 0"/>
+    <path d="M60 110c8 12 12 28 0 45"/>
+  </g>
+  <text x="110" y="420" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="900" fill="#ffb703" opacity="0.98">AFTER</text>
+</svg>
+

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="n" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2d2d" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#ff7a18" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffb703" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#050507"/>
+  <g opacity="0.18">
+    <circle cx="160" cy="100" r="180" fill="#ff2d2d"/>
+    <circle cx="680" cy="120" r="200" fill="#ff7a18"/>
+    <circle cx="420" cy="460" r="240" fill="#ffb703"/>
+  </g>
+  <rect x="70" y="80" width="660" height="340" rx="32" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.10)"/>
+  <g transform="translate(210,190)" stroke="url(#n)" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M-40 110h300"/>
+    <path d="M0 60v100"/>
+    <path d="M140 60v100"/>
+    <path d="M-40 60c20-24 48-36 80-36h90c32 0 60 12 80 36"/>
+  </g>
+  <text x="110" y="430" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="900" fill="url(#n)">AS-Fitness Gym</text>
+</svg>
+
