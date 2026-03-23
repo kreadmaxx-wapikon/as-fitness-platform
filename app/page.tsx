@@ -37,9 +37,9 @@ export default function Home() {
           <div className="relative grid gap-10 py-14 md:grid-cols-2 md:py-20">
             <div className="flex flex-col justify-center">
               <Reveal>
-                {/* <p className="text-xs font-bold tracking-[0.22em] text-neon-orange/90">
+                <p className="text-xs font-bold tracking-[0.22em] text-neon-orange/90">
                   PURAINI BHAGALPUR • 812005
-                </p> */}
+                </p>
                 <h1 className="mt-5 text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl">
                   Transform Your Body, Transform Your Life
                 </h1>
